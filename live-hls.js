@@ -7,7 +7,7 @@ var path = require('path');
 var url = require('url');
 var express = require('express');
 var streams = {};
-var debug = 0;
+var debug = 1;
 var defaults = {
   // seconds per resource, defaults to target duration if no override
   // rate: 10,
